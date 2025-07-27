@@ -1,0 +1,277 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: teal;
+}
+.container-hero {
+    background-image: url(gambar/hero.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.teks {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}   
+.container-fontawesome {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.flex-fontawwesome {
+    text-align: center;
+    margin-top: 50px;
+    flex: 1 1 40% ;
+}
+@media (min-width: 768px) {
+    .container-fontawesome {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .flex-fontawwesome {
+        text-align: center;
+        margin-top: 50px; 
+    }
+
+}
+ .flex-fontawwesome .fab {
+    color: salmon;
+    font-size: 40px;
+    margin-bottom: 10px;
+ }
+ .flex-fontawwesome .fas {
+    color: salmon;
+    font-size: 40px;
+    margin-bottom: 10px;
+ }
+.judul-fontawesome {
+    font-size: 20px;
+    font-weight: bold;
+}
+.flex-fontawwesome p {
+    font-size: 16px;
+    font-weight: bold;
+}
+.header {
+    text-align: center;
+    font-size: 20px;
+}
+hr {
+    border: 3px solid salmon;
+    width: 40%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.container-paket-kelas {
+    width: 100%;
+    background-color: azure;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.info-paket-kelas {
+    width: 400px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -10px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+.info-paket-kelas img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+.info-paket-kelas p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.info-paket-kelas a {
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    color: white;
+    font-weight: 700;
+    background-color: teal;
+    font-size: 18px;
+    border-radius: 7px;
+    border: 2px solid teal;
+    padding: 5px;
+    transition: 0.3s;
+}
+.info-paket-kelas a:hover {
+    background-color: salmon;
+    border: 2px solid salmon;
+}
+.container-generasi { 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.image-generasi {
+    width: 400px;
+    text-align: center;
+}
+.image-generasi img {
+    width: 100%;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.teks-generasi {
+    width: 450px;
+    margin-left: 30px;
+}
+.teks-generasi h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.teks-generasi p {
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.teks-generasi button {
+    margin-top: 40px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid teal;
+    color: white;
+    background-color: teal;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.teks-generasi button:hover {
+    background-color: salmon;
+    border: 2px solid salmon ;
+}
+.header2 {
+    text-align: center;
+    font-size: 20px;
+}
+.container-galeri {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.isi-galeri {
+    background-color: azure;
+    margin-bottom: 7px;
+    box-shadow: 0px 0px 20px -10px;
+    width: 400px;
+    text-align: center;
+}
+.isi-galeri img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+    box-shadow: 0px 0px 20px -10px;
+}
+.isi-galeri img:hover {
+    transform: scale(1.1);
+}
+.header2 {
+    margin-top: 50px;
+}
+.container-testimoni {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.info-testimoni {
+    background-color: azure;
+    border-radius: 8px;
+    width: 400px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 20px -10px;
+}
+.info-testimoni img {
+    width: 30%;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+.teks-testimoni h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.teks-testimoni p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+@media (min-width: 768px) {
+    .info-testimoni {
+    background-color: azure;
+    border-radius: 8px;
+    width: 285px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 20px -10px; 
+    }
+}
+.container-footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: teal;
+    margin-top: 15px;
+    padding: 30px;
+}
+.image-footer {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.image-footer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.teks-footer {
+    text-align: right;
+}
+.teks-footer p {
+    color: white;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    display: block;
+}
+.teks-footer .fab {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
